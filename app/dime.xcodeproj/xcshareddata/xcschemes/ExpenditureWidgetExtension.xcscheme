@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53B1D189288ED7E400E28062"
-               BuildableName = "ExpenditureWidgetExtension.appex"
-               BlueprintName = "ExpenditureWidgetExtension"
+               BuildableName = "SnapTrackWidget.appex"
+               BlueprintName = "SnapTrackWidget"
                ReferencedContainer = "container:dime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,8 +30,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5327D282287C697400F76ADF"
-               BuildableName = "dime.app"
-               BlueprintName = "dime"
+               BuildableName = "SnapTrack.app"
+               BlueprintName = "SnapTrack"
                ReferencedContainer = "container:dime.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53B1D189288ED7E400E28062"
-            BuildableName = "ExpenditureWidgetExtension.appex"
-            BlueprintName = "ExpenditureWidgetExtension"
+            BuildableName = "SnapTrackWidget.appex"
+            BlueprintName = "SnapTrackWidget"
             ReferencedContainer = "container:dime.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
@@ -73,8 +73,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5327D282287C697400F76ADF"
-            BuildableName = "dime.app"
-            BlueprintName = "dime"
+            BuildableName = "SnapTrack.app"
+            BlueprintName = "SnapTrack"
             ReferencedContainer = "container:dime.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -109,8 +109,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5327D282287C697400F76ADF"
-            BuildableName = "dime.app"
-            BlueprintName = "dime"
+            BuildableName = "SnapTrack.app"
+            BlueprintName = "SnapTrack"
             ReferencedContainer = "container:dime.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

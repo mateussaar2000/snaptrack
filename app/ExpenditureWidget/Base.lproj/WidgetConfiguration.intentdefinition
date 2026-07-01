@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
 <plist version="1.0">
 <dict>
 	<key>INEnums</key>
@@ -10,7 +9,7 @@
 			<key>INEnumDisplayNameID</key>
 			<string>XlOqjc</string>
 			<key>INEnumGeneratesHeader</key>
-			<true/>
+			<true />
 			<key>INEnumName</key>
 			<string>TimePeriod</string>
 			<key>INEnumType</key>
@@ -73,7 +72,7 @@
 			<key>INEnumDisplayNameID</key>
 			<string>Ho0bYB</string>
 			<key>INEnumGeneratesHeader</key>
-			<true/>
+			<true />
 			<key>INEnumName</key>
 			<string>InsightsTimePeriod</string>
 			<key>INEnumType</key>
@@ -126,7 +125,7 @@
 			<key>INEnumDisplayNameID</key>
 			<string>zlEWQ3</string>
 			<key>INEnumGeneratesHeader</key>
-			<true/>
+			<true />
 			<key>INEnumName</key>
 			<string>InsightsType</string>
 			<key>INEnumType</key>
@@ -179,7 +178,7 @@
 			<key>INEnumDisplayNameID</key>
 			<string>QBbDzN</string>
 			<key>INEnumGeneratesHeader</key>
-			<true/>
+			<true />
 			<key>INEnumName</key>
 			<string>Income</string>
 			<key>INEnumType</key>
@@ -232,12 +231,12 @@
 		<dict>
 			<key>INIntentCategory</key>
 			<string>information</string>
-			<key>INIntentDescriptionID</key>
+			<key>INIntentDescription</key><string>Configure the recent transactions widget.</string><key>INIntentDescriptionID</key>
 			<string>zyzKwW</string>
 			<key>INIntentEligibleForWidgets</key>
-			<true/>
+			<true />
 			<key>INIntentIneligibleForSuggestions</key>
-			<true/>
+			<true />
 			<key>INIntentLastParameterTag</key>
 			<integer>4</integer>
 			<key>INIntentName</key>
@@ -246,7 +245,7 @@
 			<array>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
-					<true/>
+					<true />
 					<key>INIntentParameterDisplayName</key>
 					<string>Time Period</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -268,19 +267,19 @@
 					<array>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Configuration</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${duration}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -290,7 +289,7 @@
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${duration}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -306,7 +305,7 @@
 				</dict>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
-					<true/>
+					<true />
 					<key>INIntentParameterDisplayName</key>
 					<string>Insights Type</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -328,19 +327,19 @@
 					<array>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Configuration</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${insightsType}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -350,7 +349,7 @@
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${insightsType}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -373,7 +372,7 @@
 						<key>INIntentResponseCodeName</key>
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
-						<true/>
+						<true />
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeName</key>
@@ -393,12 +392,12 @@
 		<dict>
 			<key>INIntentCategory</key>
 			<string>information</string>
-			<key>INIntentDescriptionID</key>
+			<key>INIntentDescription</key><string>Configure the insights widget.</string><key>INIntentDescriptionID</key>
 			<string>o6TYpt</string>
 			<key>INIntentEligibleForWidgets</key>
-			<true/>
+			<true />
 			<key>INIntentIneligibleForSuggestions</key>
-			<true/>
+			<true />
 			<key>INIntentLastParameterTag</key>
 			<integer>5</integer>
 			<key>INIntentName</key>
@@ -407,7 +406,7 @@
 			<array>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
-					<true/>
+					<true />
 					<key>INIntentParameterDisplayName</key>
 					<string>Time Period</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -429,19 +428,19 @@
 					<array>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Configuration</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${duration}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -451,7 +450,7 @@
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${duration}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -467,7 +466,7 @@
 				</dict>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
-					<true/>
+					<true />
 					<key>INIntentParameterDisplayName</key>
 					<string>Insights Type</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -489,19 +488,19 @@
 					<array>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Configuration</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>There are ${count} options matching ‘${income}’.</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -511,7 +510,7 @@
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogFormatString</key>
 							<string>Just to confirm, you wanted ‘${income}’?</string>
 							<key>INIntentParameterPromptDialogFormatStringID</key>
@@ -534,7 +533,7 @@
 						<key>INIntentResponseCodeName</key>
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
-						<true/>
+						<true />
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeName</key>
@@ -554,12 +553,12 @@
 		<dict>
 			<key>INIntentCategory</key>
 			<string>information</string>
-			<key>INIntentDescriptionID</key>
+			<key>INIntentDescription</key><string>Configure the budget widget.</string><key>INIntentDescriptionID</key>
 			<string>ybo786</string>
 			<key>INIntentEligibleForWidgets</key>
-			<true/>
+			<true />
 			<key>INIntentIneligibleForSuggestions</key>
-			<true/>
+			<true />
 			<key>INIntentLastParameterTag</key>
 			<integer>6</integer>
 			<key>INIntentName</key>
@@ -568,7 +567,7 @@
 			<array>
 				<dict>
 					<key>INIntentParameterConfigurable</key>
-					<true/>
+					<true />
 					<key>INIntentParameterDisplayName</key>
 					<string>Budget</string>
 					<key>INIntentParameterDisplayNameID</key>
@@ -585,19 +584,19 @@
 					<array>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Configuration</string>
 						</dict>
 						<dict>
 							<key>INIntentParameterPromptDialogCustom</key>
-							<true/>
+							<true />
 							<key>INIntentParameterPromptDialogType</key>
 							<string>Primary</string>
 						</dict>
 					</array>
 					<key>INIntentParameterSupportsDynamicEnumeration</key>
-					<true/>
+					<true />
 					<key>INIntentParameterTag</key>
 					<integer>5</integer>
 					<key>INIntentParameterType</key>
@@ -612,7 +611,7 @@
 						<key>INIntentResponseCodeName</key>
 						<string>success</string>
 						<key>INIntentResponseCodeSuccess</key>
-						<true/>
+						<true />
 					</dict>
 					<dict>
 						<key>INIntentResponseCodeName</key>
@@ -645,7 +644,7 @@
 			<array>
 				<dict>
 					<key>INTypePropertyDefault</key>
-					<true/>
+					<true />
 					<key>INTypePropertyDisplayPriority</key>
 					<integer>1</integer>
 					<key>INTypePropertyName</key>
@@ -657,7 +656,7 @@
 				</dict>
 				<dict>
 					<key>INTypePropertyDefault</key>
-					<true/>
+					<true />
 					<key>INTypePropertyDisplayPriority</key>
 					<integer>2</integer>
 					<key>INTypePropertyName</key>
@@ -669,7 +668,7 @@
 				</dict>
 				<dict>
 					<key>INTypePropertyDefault</key>
-					<true/>
+					<true />
 					<key>INTypePropertyDisplayPriority</key>
 					<integer>3</integer>
 					<key>INTypePropertyName</key>
@@ -681,13 +680,13 @@
 				</dict>
 				<dict>
 					<key>INTypePropertyDefault</key>
-					<true/>
+					<true />
 					<key>INTypePropertyDisplayPriority</key>
 					<integer>4</integer>
 					<key>INTypePropertyName</key>
 					<string>alternativeSpeakableMatches</string>
 					<key>INTypePropertySupportsMultipleValues</key>
-					<true/>
+					<true />
 					<key>INTypePropertyTag</key>
 					<integer>4</integer>
 					<key>INTypePropertyType</key>
