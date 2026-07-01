@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		384F59402D85064B1849AD87 /* NutritionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8CBAB536FF5EBB77D942A /* NutritionStore.swift */; };
 		3D83E57E3345773253C127F1 /* SnapTrackHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB884CBE1AF085EF21F03F9 /* SnapTrackHomeView.swift */; };
+		3FD669D34091E1978988BE03 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 24DF8BE2469FA6D1CE5450ED /* PrivacyInfo.xcprivacy */; };
 		42D80DCC2F5AB6168B813846 /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C40F97E7F377EF9CC0436 /* UserMessage.swift */; };
 		4D25BA6F898D633BA70BDDCE /* SnapTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9A903CBE9641EE2C4D7F1 /* SnapTrackApp.swift */; };
 		5045CA98A38F834821E8ED90 /* DateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339AE2AB163A7C61D3B10236 /* DateUtilsTests.swift */; };
@@ -244,6 +245,7 @@
 
 /* Begin PBXFileReference section */
 		0DE60428D64BF7642C9E4D22 /* SnapTrackAddMealView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackAddMealView.swift; sourceTree = "<group>"; };
+		24DF8BE2469FA6D1CE5450ED /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		26B51A598405702CFC2B3AE8 /* ImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		2FEB478E437A2A06BB63B7F2 /* SnapTrackAuthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackAuthView.swift; sourceTree = "<group>"; };
 		339AE2AB163A7C61D3B10236 /* DateUtilsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateUtilsTests.swift; sourceTree = "<group>"; };
@@ -537,6 +539,7 @@
 				842D3DB451B6B8FCDD41FDDB /* ViewModels */,
 				8596EFE9EF7C1902F7FB537C /* SnapTrackViews */,
 				35D9A903CBE9641EE2C4D7F1 /* SnapTrackApp.swift */,
+				24DF8BE2469FA6D1CE5450ED /* PrivacyInfo.xcprivacy */,
 			);
 			path = dime;
 			sourceTree = "<group>";
@@ -1018,6 +1021,7 @@
 				53756F632AC3C25E0065D0C2 /* sample.csv in Resources */,
 				5327D2E0287C6B7D00F76ADF /* DeviceModels.json in Resources */,
 				52F030DFF494019725ACB189 /* Config.plist in Resources */,
+				3FD669D34091E1978988BE03 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,7 +1598,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.4;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1636,7 +1640,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.4;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
