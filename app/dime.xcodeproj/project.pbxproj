@@ -160,6 +160,7 @@
 		807A5E08A605864FEB335CBA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960E3A593227C0AEF7289F4 /* Config.swift */; };
 		851DD91E20D4BF0143E7586C /* ManualEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E0C4F6864CF230D7D10211 /* ManualEntryView.swift */; };
 		8A3EA5585034517A44DBEE57 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD7C1ED1CDF9A37D0B893A /* SupabaseService.swift */; };
+		983DEC24E08FB1E23D516745 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063FC459462004259F1B2CF /* MainTabView.swift */; };
 		A006E638310DBD698BF0462A /* SnapTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706E4DAA6C7925A75C65EFD /* SnapTrackApp.swift */; };
 		A33080A3E866C9D19A1EE503 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3999EAD85601564BBE6380 /* Haptics.swift */; };
 		AE5B3D792AEE99E000AB364E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B3D782AEE99E000AB364E /* NumberPad.swift */; };
@@ -361,6 +362,7 @@
 		7706E4DAA6C7925A75C65EFD /* SnapTrackApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackApp.swift; sourceTree = "<group>"; };
 		87E0C4F6864CF230D7D10211 /* ManualEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManualEntryView.swift; path = Views/ManualEntryView.swift; sourceTree = "<group>"; };
 		8960E3A593227C0AEF7289F4 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		9063FC459462004259F1B2CF /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = Views/MainTabView.swift; sourceTree = "<group>"; };
 		9C0D4B70DFD9678A4D7BD757 /* AuthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthView.swift; path = Views/AuthView.swift; sourceTree = "<group>"; };
 		AE5B3D782AEE99E000AB364E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
 		AEADEF6E2AE94DA3006EB614 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
@@ -709,6 +711,7 @@
 				F13C54B0946C944A3A493285 /* SnapTrackToast.swift */,
 				E7C07D0A33DDAC12F8B7F23D /* VoiceNoteInput.swift */,
 				21EF7949B9E1BD3623323CF1 /* WeeklyChartView.swift */,
+				9063FC459462004259F1B2CF /* MainTabView.swift */,
 			);
 			name = SnapTrack;
 			path = SnapTrack;
@@ -1092,6 +1095,7 @@
 				C0A5564C9C2126EC1E13121C /* SnapTrackToast.swift in Sources */,
 				CEC6044C0238768EBAF1F56D /* VoiceNoteInput.swift in Sources */,
 				B0B42D15520E6D5141BEAA2F /* WeeklyChartView.swift in Sources */,
+				983DEC24E08FB1E23D516745 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

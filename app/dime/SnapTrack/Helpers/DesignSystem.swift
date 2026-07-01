@@ -9,26 +9,26 @@ enum AppColor {
         startPoint: .topLeading,
         endPoint: .bottomTrailing
     )
-    static let surface = Color(.systemBackground)
-    static let surfaceSecondary = Color(.secondarySystemBackground)
-    static let surfaceTertiary = Color(.tertiarySystemBackground)
-    static let separator = Color(.separator)
-    static let success = Color.green
-    static let warning = Color.orange
-    static let destructive = Color.red
+    static let surface = Color.PrimaryBackground
+    static let surfaceSecondary = Color.SecondaryBackground
+    static let surfaceTertiary = Color.TertiaryBackground
+    static let separator = Color.Outline
+    static let success = Color.IncomeGreen
+    static let warning = Color("Yellow")
+    static let destructive = Color.AlertRed
 
     static let landingGradient = LinearGradient(
         colors: [
-            Color(red: 0.94, green: 0.97, blue: 1.0),
-            Color(red: 0.98, green: 0.99, blue: 1.0),
-            Color.white
+            Color.PrimaryBackground,
+            Color.SecondaryBackground,
+            Color.PrimaryBackground
         ],
         startPoint: .top,
         endPoint: .bottom
     )
 
     static let heroGradient = LinearGradient(
-        colors: [Color("AccentColor"), Color(red: 0.0, green: 0.35, blue: 0.75)],
+        colors: [Color("AccentColor"), Color.DarkBackground],
         startPoint: .topLeading,
         endPoint: .bottomTrailing
     )

@@ -15,7 +15,7 @@ struct SnapTrackApp: App {
         WindowGroup {
             ZStack {
                 if auth.isAuthenticated {
-                    DashboardView()
+                    MainTabView()
                         .environmentObject(auth)
                         .transition(.opacity)
                 } else if auth.isLoading {
