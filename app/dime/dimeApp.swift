@@ -1,34 +1,40 @@
 //
-//  SnapTrackApp.swift
-//  SnapTrack
+//  dimeApp.swift
+//  dime
 //
-//  Based on Dime by Rafael Soh & Jeffrey Chia.
+//  Created by Rafael Soh on 11/7/22.
 //
 
 import SwiftUI
 
-@main
-struct SnapTrackApp: App {
-    @StateObject private var auth = AuthViewModel()
+// Original Dime app entry point. Disabled in SnapTrack fork so SnapTrackApp is the unique @main.
+struct DimeApp: App {
+    @StateObject var dataController: DataController
+    @StateObject var unlockManager: UnlockManager
+    @StateObject var appLockVM = AppLockViewModel()
+    @StateObject var tabBarManager = TabBarManager()
+
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
 
     var body: some Scene {
         WindowGroup {
-            ZStack {
-                if auth.isAuthenticated {
-                    MainTabView()
-                        .environmentObject(auth)
-                        .transition(.opacity)
-                } else if auth.isLoading {
-                    LaunchScreen()
-                        .transition(.opacity)
-                } else {
-                    LandingView()
-                        .environmentObject(auth)
-                        .transition(.opacity)
-                }
-            }
-            .animation(.easeInOut(duration: 0.3), value: auth.isAuthenticated)
-            .animation(.easeInOut(duration: 0.3), value: auth.isLoading)
+            ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
+                .environmentObject(appLockVM)
+                .environmentObject(dataController)
+                .environmentObject(unlockManager)
+                .environmentObject(tabBarManager)
         }
+    }
+
+    init() {
+        let dataController = DataController.shared
+//        let dataController = DataController()
+        let unlockManager = UnlockManager(dataController: dataController)
+
+        _dataController = StateObject(wrappedValue: dataController)
+        _unlockManager = StateObject(wrappedValue: unlockManager)
+
+        UITableView.appearance().backgroundColor = .clear
     }
 }

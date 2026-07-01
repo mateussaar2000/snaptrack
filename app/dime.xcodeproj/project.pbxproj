@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B7A181F2D2221E64DAD270 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E048896B442014801DA0AE /* AuthViewModel.swift */; };
-		13280B459CF0B2A7ABBCE3E0 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737DD22B29FB999B1290FF3D /* DesignSystem.swift */; };
-		164507C8F48BBD14B6C3875D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C930EE4E4A2AF48F8484A1E1 /* Meal.swift */; };
-		3F4A8A0208D8864F37A6C198 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0D4B70DFD9678A4D7BD757 /* AuthView.swift */; };
+		384F59402D85064B1849AD87 /* NutritionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB8CBAB536FF5EBB77D942A /* NutritionStore.swift */; };
+		3D83E57E3345773253C127F1 /* SnapTrackHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB884CBE1AF085EF21F03F9 /* SnapTrackHomeView.swift */; };
+		42D80DCC2F5AB6168B813846 /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C40F97E7F377EF9CC0436 /* UserMessage.swift */; };
+		4D25BA6F898D633BA70BDDCE /* SnapTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D9A903CBE9641EE2C4D7F1 /* SnapTrackApp.swift */; };
+		5045CA98A38F834821E8ED90 /* DateUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339AE2AB163A7C61D3B10236 /* DateUtilsTests.swift */; };
+		507BA86A5F47AC6AB4A2D02C /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBE766994840F2FD5060160 /* SettingsStore.swift */; };
+		507D50487DCEE0BC3B1A719C /* LocalMealCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F773B717A173D69E9BB088 /* LocalMealCache.swift */; };
+		514581BEB06A5DC68BB295E3 /* SnapTrackInsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F2A965468BEF5A9EFE8643 /* SnapTrackInsightsView.swift */; };
+		52F030DFF494019725ACB189 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5A2391016F56E419CF1D764 /* Config.plist */; };
 		530C89D62A793B6C00B5028D /* ShortcutsEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C89D52A793B6C00B5028D /* ShortcutsEntities.swift */; };
 		530C9DFD28ACE14A0038535F /* BudgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C9DFC28ACE14A0038535F /* BudgetWidget.swift */; };
 		530C9DFE28ACE14A0038535F /* BudgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530C9DFC28ACE14A0038535F /* BudgetWidget.swift */; };
@@ -153,35 +158,38 @@
 		53EB930E28A65A570026BE28 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D2B5287C6AFB00F76ADF /* Color.swift */; };
 		53EB930F28A65B250026BE28 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1D1A4289383B100E28062 /* FontExtension.swift */; };
 		54645ECCE130D3A5898110FE /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 71D0FD85D1D839B320788641 /* Supabase */; };
-		5F98E846F6C8A29C3638B114 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5143447A275ADC55878F5C /* DateUtils.swift */; };
-		675FA6D7081876CADBDE2336 /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0332762C6A81A7AE7AF608 /* ImageResizer.swift */; };
-		6E6224338406C8835F57C52B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBF2C9F365751E791A03CB9 /* DashboardView.swift */; };
-		70D67604BF1621C580841A9A /* DailyTotalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CC282C3C5CB75183829634 /* DailyTotalsView.swift */; };
-		807A5E08A605864FEB335CBA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8960E3A593227C0AEF7289F4 /* Config.swift */; };
-		851DD91E20D4BF0143E7586C /* ManualEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E0C4F6864CF230D7D10211 /* ManualEntryView.swift */; };
-		8A3EA5585034517A44DBEE57 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BD7C1ED1CDF9A37D0B893A /* SupabaseService.swift */; };
-		983DEC24E08FB1E23D516745 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063FC459462004259F1B2CF /* MainTabView.swift */; };
-		A006E638310DBD698BF0462A /* SnapTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7706E4DAA6C7925A75C65EFD /* SnapTrackApp.swift */; };
-		A33080A3E866C9D19A1EE503 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3999EAD85601564BBE6380 /* Haptics.swift */; };
+		5BAC603A6748DE06F56EA229 /* SnapTrackSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379BC1397CCDFFA935CD9EDB /* SnapTrackSettingsView.swift */; };
+		634266BBCFD4D9838490B8D3 /* SnapTrackLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F91B489CC8A7C0A9D2FAAA /* SnapTrackLogView.swift */; };
+		67B3005B7F931AECDEA2F96C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447742B5B46A1127FE0CC6E6 /* Config.swift */; };
+		6D4AC10371FF348D5C3A4DF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A123A702D0C619FF71497613 /* Foundation.framework */; };
+		73F0D8D1B88C71EE5C5C9798 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B51A598405702CFC2B3AE8 /* ImagePicker.swift */; };
+		7A6A4A43247877F987BD6EF1 /* MealUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00327C060FF47485555D9B8 /* MealUpdateTests.swift */; };
+		7DE57EEDF1F5B09E8C9715EE /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878E7F0202B5F9024C1E617 /* NetworkMonitor.swift */; };
+		80895F2C93FA6DFAB5DA0CA7 /* SnapTrackGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC1E811A784D58144EC7423 /* SnapTrackGoalsView.swift */; };
+		83FCC986EF34EDCE6EE1CDFD /* SnapTrackAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB478E437A2A06BB63B7F2 /* SnapTrackAuthView.swift */; };
+		8C2F7F91FE09390014EE3B6F /* GoalsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB765C26E01871B56E3115DE /* GoalsStore.swift */; };
+		8F4E413E8DAB97E002AD0370 /* SnapTrackEditMealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210C5C65216E169EF413B05 /* SnapTrackEditMealSheet.swift */; };
+		A337BB753B1ADDB74014E216 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04DE9B74A89551CAC983C32 /* Meal.swift */; };
+		A4C8932EC75214469D39E6F7 /* SupabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD1E28F870157D6CAF9E5A1 /* SupabaseService.swift */; };
+		A7A882E85183AF57B54CBDF4 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B29D79D6091D82442CE023 /* AppError.swift */; };
+		AE3EB1EBEC7C18B1CF406109 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AB30B139F6983BD8DDFBB7 /* DateUtils.swift */; };
 		AE5B3D792AEE99E000AB364E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B3D782AEE99E000AB364E /* NumberPad.swift */; };
 		AEADEF6F2AE94DA3006EB614 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF6E2AE94DA3006EB614 /* Toast.swift */; };
 		AEADEF712AE94DA8006EB614 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF702AE94DA8006EB614 /* BackButton.swift */; };
 		AEADEF742AE94DC3006EB614 /* ToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF722AE94DC3006EB614 /* ToolbarButton.swift */; };
 		AEADEF752AE94DC3006EB614 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF732AE94DC3006EB614 /* Toolbar.swift */; };
 		AECE7F9E2AED1A6800B57267 /* SuggestedTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECE7F9D2AED1A6800B57267 /* SuggestedTransactions.swift */; };
-		B0B42D15520E6D5141BEAA2F /* WeeklyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF7949B9E1BD3623323CF1 /* WeeklyChartView.swift */; };
-		C0A5564C9C2126EC1E13121C /* SnapTrackToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13C54B0946C944A3A493285 /* SnapTrackToast.swift */; };
-		C13CC795FEE21E87031389B4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52BAFA740531583B7F6E396 /* ImagePicker.swift */; };
-		CEC6044C0238768EBAF1F56D /* VoiceNoteInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7C07D0A33DDAC12F8B7F23D /* VoiceNoteInput.swift */; };
+		AFBF62CE4459D49012D084DE /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F271F3470C306118ED1D9338 /* ImageResizer.swift */; };
+		B4A5414466F47629E2DAB611 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8D02C77388490C28688060 /* Haptics.swift */; };
+		C5C6BA5F0183CF2D28EA7812 /* SnapTrackAddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE60428D64BF7642C9E4D22 /* SnapTrackAddMealView.swift */; };
+		CCCB34AC8E0CE1019655EB96 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A549BA997A56DAD0A20A5E /* AuthViewModel.swift */; };
+		D4845E0E35C194FEE7EB88B6 /* AppErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B923CF5A94F75254D313FE72 /* AppErrorTests.swift */; };
 		D63B204A2D8728C300CAFB20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D63B20462D8728C300CAFB20 /* Localizable.strings */; };
 		D63B204B2D8728C300CAFB20 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = D63B20482D8728C300CAFB20 /* Localizable.stringsdict */; };
 		D6A4DE202D61744400F7F751 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */; };
 		D6A4DE242D61744400F7F751 /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = D6A4DE232D61744400F7F751 /* SwiftUIIntrospect-Static */; };
-		E709F9F64C68524AF56AC22D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B245D5BFF420EAB4C85189 /* LandingView.swift */; };
-		E9756BA36AF4B0D9EC3AAADD /* Shimmer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2766848944939D3CF8570DD /* Shimmer.swift */; };
-		EBFEC0406913EA540D936DAA /* MealsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B95F596236F49740CCBE8B /* MealsListView.swift */; };
-		ED108168B25A12B3ABAEBFEA /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732B1AD9A64CBCCC1C39BD0E /* DashboardViewModel.swift */; };
-		EEDDF7444631B9C4A536E577 /* EditMealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 219F305F86C41FE51FEAAD51 /* EditMealSheet.swift */; };
+		E471060535D5DF480DE12F84 /* UserGoalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA18F2B6ECCFED71AD1CE06 /* UserGoalsTests.swift */; };
+		FC4B05F2BF528ADE4FA0309B /* UserGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BF85138B732A9AF408EAC /* UserGoals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,10 +243,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		219F305F86C41FE51FEAAD51 /* EditMealSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditMealSheet.swift; path = Views/EditMealSheet.swift; sourceTree = "<group>"; };
-		21EF7949B9E1BD3623323CF1 /* WeeklyChartView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeeklyChartView.swift; path = Views/WeeklyChartView.swift; sourceTree = "<group>"; };
-		27CC282C3C5CB75183829634 /* DailyTotalsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DailyTotalsView.swift; path = Views/DailyTotalsView.swift; sourceTree = "<group>"; };
-		4EBF2C9F365751E791A03CB9 /* DashboardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardView.swift; path = Views/DashboardView.swift; sourceTree = "<group>"; };
+		0DE60428D64BF7642C9E4D22 /* SnapTrackAddMealView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackAddMealView.swift; sourceTree = "<group>"; };
+		26B51A598405702CFC2B3AE8 /* ImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2FEB478E437A2A06BB63B7F2 /* SnapTrackAuthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackAuthView.swift; sourceTree = "<group>"; };
+		339AE2AB163A7C61D3B10236 /* DateUtilsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateUtilsTests.swift; sourceTree = "<group>"; };
+		35D9A903CBE9641EE2C4D7F1 /* SnapTrackApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackApp.swift; sourceTree = "<group>"; };
+		35F773B717A173D69E9BB088 /* LocalMealCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocalMealCache.swift; sourceTree = "<group>"; };
+		379BC1397CCDFFA935CD9EDB /* SnapTrackSettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackSettingsView.swift; sourceTree = "<group>"; };
+		3FD1E28F870157D6CAF9E5A1 /* SupabaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupabaseService.swift; sourceTree = "<group>"; };
+		447742B5B46A1127FE0CC6E6 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		530C89D52A793B6C00B5028D /* ShortcutsEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsEntities.swift; sourceTree = "<group>"; };
 		530C9DFC28ACE14A0038535F /* BudgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetWidget.swift; sourceTree = "<group>"; };
 		5311A22E29F04EF300A5BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/WidgetConfiguration.intentdefinition; sourceTree = "<group>"; };
@@ -353,33 +366,39 @@
 		53E832E42B0A2CAF000CBBA0 /* InsightsSummaryBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsSummaryBlock.swift; sourceTree = "<group>"; };
 		53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategoryPicker.swift; sourceTree = "<group>"; };
 		53EB931028A65F670026BE28 /* ExpenditureWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExpenditureWidgetExtension.entitlements; sourceTree = "<group>"; };
-		59E048896B442014801DA0AE /* AuthViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthViewModel.swift; path = ViewModels/AuthViewModel.swift; sourceTree = "<group>"; };
-		5B5143447A275ADC55878F5C /* DateUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtils.swift; path = Helpers/DateUtils.swift; sourceTree = "<group>"; };
-		68B245D5BFF420EAB4C85189 /* LandingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LandingView.swift; path = Views/LandingView.swift; sourceTree = "<group>"; };
-		6F3999EAD85601564BBE6380 /* Haptics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haptics.swift; path = Helpers/Haptics.swift; sourceTree = "<group>"; };
-		732B1AD9A64CBCCC1C39BD0E /* DashboardViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DashboardViewModel.swift; path = ViewModels/DashboardViewModel.swift; sourceTree = "<group>"; };
-		737DD22B29FB999B1290FF3D /* DesignSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignSystem.swift; path = Helpers/DesignSystem.swift; sourceTree = "<group>"; };
-		7706E4DAA6C7925A75C65EFD /* SnapTrackApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackApp.swift; sourceTree = "<group>"; };
-		87E0C4F6864CF230D7D10211 /* ManualEntryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManualEntryView.swift; path = Views/ManualEntryView.swift; sourceTree = "<group>"; };
-		8960E3A593227C0AEF7289F4 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		9063FC459462004259F1B2CF /* MainTabView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainTabView.swift; path = Views/MainTabView.swift; sourceTree = "<group>"; };
-		9C0D4B70DFD9678A4D7BD757 /* AuthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthView.swift; path = Views/AuthView.swift; sourceTree = "<group>"; };
+		57535521817F5268FD444040 /* AuthViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		6EC1E811A784D58144EC7423 /* SnapTrackGoalsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackGoalsView.swift; sourceTree = "<group>"; };
+		6F1BF85138B732A9AF408EAC /* UserGoals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserGoals.swift; sourceTree = "<group>"; };
+		7210C5C65216E169EF413B05 /* SnapTrackEditMealSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackEditMealSheet.swift; sourceTree = "<group>"; };
+		77F2A965468BEF5A9EFE8643 /* SnapTrackInsightsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackInsightsView.swift; sourceTree = "<group>"; };
+		7FB884CBE1AF085EF21F03F9 /* SnapTrackHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackHomeView.swift; sourceTree = "<group>"; };
+		88AB30B139F6983BD8DDFBB7 /* DateUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		97B101D7F4585F6D8A2A12C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A123A702D0C619FF71497613 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A4B29D79D6091D82442CE023 /* AppError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		A5A2391016F56E419CF1D764 /* Config.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		ABB8CBAB536FF5EBB77D942A /* NutritionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NutritionStore.swift; sourceTree = "<group>"; };
 		AE5B3D782AEE99E000AB364E /* NumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPad.swift; sourceTree = "<group>"; };
 		AEADEF6E2AE94DA3006EB614 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		AEADEF702AE94DA8006EB614 /* BackButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 		AEADEF722AE94DC3006EB614 /* ToolbarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarButton.swift; sourceTree = "<group>"; };
 		AEADEF732AE94DC3006EB614 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
 		AECE7F9D2AED1A6800B57267 /* SuggestedTransactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedTransactions.swift; sourceTree = "<group>"; };
-		B4BD7C1ED1CDF9A37D0B893A /* SupabaseService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupabaseService.swift; path = Services/SupabaseService.swift; sourceTree = "<group>"; };
-		BD0332762C6A81A7AE7AF608 /* ImageResizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResizer.swift; path = Helpers/ImageResizer.swift; sourceTree = "<group>"; };
-		C930EE4E4A2AF48F8484A1E1 /* Meal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Meal.swift; path = Models/Meal.swift; sourceTree = "<group>"; };
-		D2766848944939D3CF8570DD /* Shimmer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Shimmer.swift; path = Helpers/Shimmer.swift; sourceTree = "<group>"; };
-		D52BAFA740531583B7F6E396 /* ImagePicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = Views/ImagePicker.swift; sourceTree = "<group>"; };
+		B8A549BA997A56DAD0A20A5E /* AuthViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		B923CF5A94F75254D313FE72 /* AppErrorTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppErrorTests.swift; sourceTree = "<group>"; };
+		BB765C26E01871B56E3115DE /* GoalsStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GoalsStore.swift; sourceTree = "<group>"; };
+		C4F91B489CC8A7C0A9D2FAAA /* SnapTrackLogView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SnapTrackLogView.swift; sourceTree = "<group>"; };
+		C878E7F0202B5F9024C1E617 /* NetworkMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		CE3C40F97E7F377EF9CC0436 /* UserMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserMessage.swift; sourceTree = "<group>"; };
+		D5B4C5F58A8464E8C5C1FAF1 /* SnapTrackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapTrackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63B20472D8728C300CAFB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizations/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D63B20492D8728C300CAFB20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = Localizations/en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
-		E7C07D0A33DDAC12F8B7F23D /* VoiceNoteInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceNoteInput.swift; path = Views/VoiceNoteInput.swift; sourceTree = "<group>"; };
-		F13C54B0946C944A3A493285 /* SnapTrackToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapTrackToast.swift; path = Views/SnapTrackToast.swift; sourceTree = "<group>"; };
-		F1B95F596236F49740CCBE8B /* MealsListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MealsListView.swift; path = Views/MealsListView.swift; sourceTree = "<group>"; };
+		DD8D02C77388490C28688060 /* Haptics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		DDA18F2B6ECCFED71AD1CE06 /* UserGoalsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UserGoalsTests.swift; sourceTree = "<group>"; };
+		E00327C060FF47485555D9B8 /* MealUpdateTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MealUpdateTests.swift; sourceTree = "<group>"; };
+		E04DE9B74A89551CAC983C32 /* Meal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		EBBE766994840F2FD5060160 /* SettingsStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		F271F3470C306118ED1D9338 /* ImageResizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -423,6 +442,14 @@
 			files = (
 				53B1D18E288ED7E500E28062 /* SwiftUI.framework in Frameworks */,
 				53B1D18C288ED7E500E28062 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FE002543C1767B38C804F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D4AC10371FF348D5C3A4DF9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +499,7 @@
 				5313EC6928ACE941000EAB0C /* BudgetIntentUI */,
 				5327D284287C697400F76ADF /* Products */,
 				5383D85C287D9A0100D1B9BA /* Frameworks */,
+				FABB9891702A82A954649E8C /* SnapTrackTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -482,6 +510,7 @@
 				53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */,
 				5313EC5B28ACE941000EAB0C /* SnapTrackIntent.appex */,
 				5313EC6628ACE941000EAB0C /* SnapTrackIntentUI.appex */,
+				D5B4C5F58A8464E8C5C1FAF1 /* SnapTrackTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -505,7 +534,9 @@
 				5327D296287C69A400F76ADF /* Utilities */,
 				5327D28C287C697C00F76ADF /* Preview Content */,
 				AE30A1522AE7D95200E516B3 /* Components */,
-				9A97A3958CAC44E790B13926 /* SnapTrack */,
+				842D3DB451B6B8FCDD41FDDB /* ViewModels */,
+				8596EFE9EF7C1902F7FB537C /* SnapTrackViews */,
+				35D9A903CBE9641EE2C4D7F1 /* SnapTrackApp.swift */,
 			);
 			path = dime;
 			sourceTree = "<group>";
@@ -539,6 +570,10 @@
 				536A2A142A59C47400D81E02 /* Wiggle.swift */,
 				536A2A162A5A7C5D00D81E02 /* OffsetHelper.swift */,
 				533D1C3B2AE7BB6900894764 /* DynamicType.swift */,
+				88AB30B139F6983BD8DDFBB7 /* DateUtils.swift */,
+				F271F3470C306118ED1D9338 /* ImageResizer.swift */,
+				DD8D02C77388490C28688060 /* Haptics.swift */,
+				C878E7F0202B5F9024C1E617 /* NetworkMonitor.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -549,6 +584,10 @@
 				53BC2A3F2A8B21920019E4A8 /* MainModel.xcdatamodeld */,
 				53980E5B28A77B62009CC4E2 /* Helper.swift */,
 				5327D2AC287C6AD200F76ADF /* DataController.swift */,
+				C00A6E8F300C617828467F59 /* Models */,
+				788F7E783655482176D1C264 /* Services */,
+				447742B5B46A1127FE0CC6E6 /* Config.swift */,
+				A5A2391016F56E419CF1D764 /* Config.plist */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -612,6 +651,7 @@
 				53B1D18D288ED7E500E28062 /* SwiftUI.framework */,
 				5313EC5C28ACE941000EAB0C /* Intents.framework */,
 				5313EC6728ACE941000EAB0C /* IntentsUI.framework */,
+				BC2FD6C9EC1696B823D862CB /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -686,35 +726,44 @@
 			path = "Settings Subviews";
 			sourceTree = "<group>";
 		};
-		9A97A3958CAC44E790B13926 /* SnapTrack */ = {
+		788F7E783655482176D1C264 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				8960E3A593227C0AEF7289F4 /* Config.swift */,
-				5B5143447A275ADC55878F5C /* DateUtils.swift */,
-				737DD22B29FB999B1290FF3D /* DesignSystem.swift */,
-				6F3999EAD85601564BBE6380 /* Haptics.swift */,
-				BD0332762C6A81A7AE7AF608 /* ImageResizer.swift */,
-				D2766848944939D3CF8570DD /* Shimmer.swift */,
-				C930EE4E4A2AF48F8484A1E1 /* Meal.swift */,
-				B4BD7C1ED1CDF9A37D0B893A /* SupabaseService.swift */,
-				7706E4DAA6C7925A75C65EFD /* SnapTrackApp.swift */,
-				59E048896B442014801DA0AE /* AuthViewModel.swift */,
-				732B1AD9A64CBCCC1C39BD0E /* DashboardViewModel.swift */,
-				9C0D4B70DFD9678A4D7BD757 /* AuthView.swift */,
-				27CC282C3C5CB75183829634 /* DailyTotalsView.swift */,
-				4EBF2C9F365751E791A03CB9 /* DashboardView.swift */,
-				219F305F86C41FE51FEAAD51 /* EditMealSheet.swift */,
-				D52BAFA740531583B7F6E396 /* ImagePicker.swift */,
-				68B245D5BFF420EAB4C85189 /* LandingView.swift */,
-				87E0C4F6864CF230D7D10211 /* ManualEntryView.swift */,
-				F1B95F596236F49740CCBE8B /* MealsListView.swift */,
-				F13C54B0946C944A3A493285 /* SnapTrackToast.swift */,
-				E7C07D0A33DDAC12F8B7F23D /* VoiceNoteInput.swift */,
-				21EF7949B9E1BD3623323CF1 /* WeeklyChartView.swift */,
-				9063FC459462004259F1B2CF /* MainTabView.swift */,
+				3FD1E28F870157D6CAF9E5A1 /* SupabaseService.swift */,
+				35F773B717A173D69E9BB088 /* LocalMealCache.swift */,
 			);
-			name = SnapTrack;
-			path = SnapTrack;
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		842D3DB451B6B8FCDD41FDDB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B8A549BA997A56DAD0A20A5E /* AuthViewModel.swift */,
+				ABB8CBAB536FF5EBB77D942A /* NutritionStore.swift */,
+				57535521817F5268FD444040 /* AuthViewModel.swift */,
+				BB765C26E01871B56E3115DE /* GoalsStore.swift */,
+				EBBE766994840F2FD5060160 /* SettingsStore.swift */,
+			);
+			name = ViewModels;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8596EFE9EF7C1902F7FB537C /* SnapTrackViews */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB478E437A2A06BB63B7F2 /* SnapTrackAuthView.swift */,
+				7FB884CBE1AF085EF21F03F9 /* SnapTrackHomeView.swift */,
+				C4F91B489CC8A7C0A9D2FAAA /* SnapTrackLogView.swift */,
+				77F2A965468BEF5A9EFE8643 /* SnapTrackInsightsView.swift */,
+				6EC1E811A784D58144EC7423 /* SnapTrackGoalsView.swift */,
+				379BC1397CCDFFA935CD9EDB /* SnapTrackSettingsView.swift */,
+				0DE60428D64BF7642C9E4D22 /* SnapTrackAddMealView.swift */,
+				7210C5C65216E169EF413B05 /* SnapTrackEditMealSheet.swift */,
+				26B51A598405702CFC2B3AE8 /* ImagePicker.swift */,
+			);
+			name = SnapTrackViews;
+			path = SnapTrackViews;
 			sourceTree = "<group>";
 		};
 		AE30A1522AE7D95200E516B3 /* Components */ = {
@@ -746,6 +795,39 @@
 				53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */,
 			);
 			path = Transactions;
+			sourceTree = "<group>";
+		};
+		BC2FD6C9EC1696B823D862CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A123A702D0C619FF71497613 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C00A6E8F300C617828467F59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E04DE9B74A89551CAC983C32 /* Meal.swift */,
+				A4B29D79D6091D82442CE023 /* AppError.swift */,
+				CE3C40F97E7F377EF9CC0436 /* UserMessage.swift */,
+				6F1BF85138B732A9AF408EAC /* UserGoals.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FABB9891702A82A954649E8C /* SnapTrackTests */ = {
+			isa = PBXGroup;
+			children = (
+				339AE2AB163A7C61D3B10236 /* DateUtilsTests.swift */,
+				DDA18F2B6ECCFED71AD1CE06 /* UserGoalsTests.swift */,
+				B923CF5A94F75254D313FE72 /* AppErrorTests.swift */,
+				E00327C060FF47485555D9B8 /* MealUpdateTests.swift */,
+				97B101D7F4585F6D8A2A12C9 /* Info.plist */,
+			);
+			name = SnapTrackTests;
+			path = SnapTrackTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -836,6 +918,23 @@
 			productReference = 53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		A569D516DB6F95DD559B19A4 /* SnapTrackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0001E020C06A9CAD18C9CA9 /* Build configuration list for PBXNativeTarget "SnapTrackTests" */;
+			buildPhases = (
+				31D805369128DA3E94FD87A2 /* Sources */,
+				C2FE002543C1767B38C804F1 /* Frameworks */,
+				AFA98B978834C9BF00E5593F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapTrackTests;
+			productName = SnapTrackTests;
+			productReference = D5B4C5F58A8464E8C5C1FAF1 /* SnapTrackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -887,6 +986,7 @@
 				53B1D189288ED7E400E28062 /* SnapTrackWidget */,
 				5313EC5A28ACE941000EAB0C /* SnapTrackIntent */,
 				5313EC6528ACE941000EAB0C /* SnapTrackIntentUI */,
+				A569D516DB6F95DD559B19A4 /* SnapTrackTests */,
 			);
 		};
 /* End PBXProject section */
@@ -917,6 +1017,7 @@
 				5327D295287C698900F76ADF /* Assets.xcassets in Resources */,
 				53756F632AC3C25E0065D0C2 /* sample.csv in Resources */,
 				5327D2E0287C6B7D00F76ADF /* DeviceModels.json in Resources */,
+				52F030DFF494019725ACB189 /* Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -926,6 +1027,13 @@
 			files = (
 				533182D328A0D61D00DEBFA3 /* Assets.xcassets in Resources */,
 				53B1D193288ED87000E28062 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA98B978834C9BF00E5593F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -953,6 +1061,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		31D805369128DA3E94FD87A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5045CA98A38F834821E8ED90 /* DateUtilsTests.swift in Sources */,
+				E471060535D5DF480DE12F84 /* UserGoalsTests.swift in Sources */,
+				D4845E0E35C194FEE7EB88B6 /* AppErrorTests.swift in Sources */,
+				7A6A4A43247877F987BD6EF1 /* MealUpdateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5313EC5728ACE941000EAB0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1073,29 +1192,31 @@
 				53A4147928B6625D008C30E7 /* AppDelegate.swift in Sources */,
 				5327D2DD287C6B5F00F76ADF /* InsightsView.swift in Sources */,
 				53A839BD28D35738006F227C /* SKProduct-LocalizedPrice.swift in Sources */,
-				807A5E08A605864FEB335CBA /* Config.swift in Sources */,
-				5F98E846F6C8A29C3638B114 /* DateUtils.swift in Sources */,
-				13280B459CF0B2A7ABBCE3E0 /* DesignSystem.swift in Sources */,
-				A33080A3E866C9D19A1EE503 /* Haptics.swift in Sources */,
-				675FA6D7081876CADBDE2336 /* ImageResizer.swift in Sources */,
-				E9756BA36AF4B0D9EC3AAADD /* Shimmer.swift in Sources */,
-				164507C8F48BBD14B6C3875D /* Meal.swift in Sources */,
-				8A3EA5585034517A44DBEE57 /* SupabaseService.swift in Sources */,
-				A006E638310DBD698BF0462A /* SnapTrackApp.swift in Sources */,
-				00B7A181F2D2221E64DAD270 /* AuthViewModel.swift in Sources */,
-				ED108168B25A12B3ABAEBFEA /* DashboardViewModel.swift in Sources */,
-				3F4A8A0208D8864F37A6C198 /* AuthView.swift in Sources */,
-				70D67604BF1621C580841A9A /* DailyTotalsView.swift in Sources */,
-				6E6224338406C8835F57C52B /* DashboardView.swift in Sources */,
-				EEDDF7444631B9C4A536E577 /* EditMealSheet.swift in Sources */,
-				C13CC795FEE21E87031389B4 /* ImagePicker.swift in Sources */,
-				E709F9F64C68524AF56AC22D /* LandingView.swift in Sources */,
-				851DD91E20D4BF0143E7586C /* ManualEntryView.swift in Sources */,
-				EBFEC0406913EA540D936DAA /* MealsListView.swift in Sources */,
-				C0A5564C9C2126EC1E13121C /* SnapTrackToast.swift in Sources */,
-				CEC6044C0238768EBAF1F56D /* VoiceNoteInput.swift in Sources */,
-				B0B42D15520E6D5141BEAA2F /* WeeklyChartView.swift in Sources */,
-				983DEC24E08FB1E23D516745 /* MainTabView.swift in Sources */,
+				67B3005B7F931AECDEA2F96C /* Config.swift in Sources */,
+				A337BB753B1ADDB74014E216 /* Meal.swift in Sources */,
+				A4C8932EC75214469D39E6F7 /* SupabaseService.swift in Sources */,
+				AE3EB1EBEC7C18B1CF406109 /* DateUtils.swift in Sources */,
+				CCCB34AC8E0CE1019655EB96 /* AuthViewModel.swift in Sources */,
+				384F59402D85064B1849AD87 /* NutritionStore.swift in Sources */,
+				4D25BA6F898D633BA70BDDCE /* SnapTrackApp.swift in Sources */,
+				83FCC986EF34EDCE6EE1CDFD /* SnapTrackAuthView.swift in Sources */,
+				3D83E57E3345773253C127F1 /* SnapTrackHomeView.swift in Sources */,
+				634266BBCFD4D9838490B8D3 /* SnapTrackLogView.swift in Sources */,
+				514581BEB06A5DC68BB295E3 /* SnapTrackInsightsView.swift in Sources */,
+				80895F2C93FA6DFAB5DA0CA7 /* SnapTrackGoalsView.swift in Sources */,
+				5BAC603A6748DE06F56EA229 /* SnapTrackSettingsView.swift in Sources */,
+				C5C6BA5F0183CF2D28EA7812 /* SnapTrackAddMealView.swift in Sources */,
+				8F4E413E8DAB97E002AD0370 /* SnapTrackEditMealSheet.swift in Sources */,
+				73F0D8D1B88C71EE5C5C9798 /* ImagePicker.swift in Sources */,
+				AFBF62CE4459D49012D084DE /* ImageResizer.swift in Sources */,
+				B4A5414466F47629E2DAB611 /* Haptics.swift in Sources */,
+				A7A882E85183AF57B54CBDF4 /* AppError.swift in Sources */,
+				42D80DCC2F5AB6168B813846 /* UserMessage.swift in Sources */,
+				FC4B05F2BF528ADE4FA0309B /* UserGoals.swift in Sources */,
+				8C2F7F91FE09390014EE3B6F /* GoalsStore.swift in Sources */,
+				7DE57EEDF1F5B09E8C9715EE /* NetworkMonitor.swift in Sources */,
+				507D50487DCEE0BC3B1A719C /* LocalMealCache.swift in Sources */,
+				507BA86A5F47AC6AB4A2D02C /* SettingsStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1185,6 +1306,31 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		09BF52B06479E6E29D9169D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				INFOPLIST_FILE = SnapTrackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.tests;
+				PRODUCT_NAME = SnapTrackTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapTrack.app/SnapTrack";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		5313EC7628ACE941000EAB0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1565,6 +1711,30 @@
 			};
 			name = Release;
 		};
+		E47C89124BC8514440B1D8A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				INFOPLIST_FILE = SnapTrackTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.tests;
+				PRODUCT_NAME = SnapTrackTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapTrack.app/SnapTrack";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1609,6 +1779,15 @@
 			buildConfigurations = (
 				53B1D199288ED87000E28062 /* Debug */,
 				53B1D19A288ED87000E28062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0001E020C06A9CAD18C9CA9 /* Build configuration list for PBXNativeTarget "SnapTrackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BF52B06479E6E29D9169D4 /* Release */,
+				E47C89124BC8514440B1D8A6 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
