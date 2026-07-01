@@ -18,7 +18,7 @@
     <string>export</string>
     <key>signingStyle</key>
     <string>automatic</string>
-    <key> thinning</key>
+    <key>thinning</key>
     <string>&lt;none&gt;</string>
 </dict>
 </plist>
