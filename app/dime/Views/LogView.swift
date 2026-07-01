@@ -13,7 +13,7 @@ import Popovers
 import SwiftUI
 
 struct LogView: View {
-    @ObservedObject var syncMonitor = SyncMonitor.shared
+    @ObservedObject var syncMonitor = SyncMonitor(listen: false)
 
     @State var updatedRecurring = false
 

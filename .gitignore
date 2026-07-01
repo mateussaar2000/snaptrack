@@ -7,3 +7,15 @@ xcuserdata/
 
 ## MacOS
 .DS_Store
+
+## Secrets
+Secrets.xcconfig
+*.secrets.plist
+Config.plist
+*.pem
+*.p8
+
+## Build artifacts
+build/
+DerivedData/
+.build/
