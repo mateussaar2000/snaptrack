@@ -19,8 +19,8 @@
 		5313EC6828ACE941000EAB0C /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5313EC6728ACE941000EAB0C /* IntentsUI.framework */; };
 		5313EC6B28ACE941000EAB0C /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5313EC6A28ACE941000EAB0C /* IntentViewController.swift */; };
 		5313EC6E28ACE941000EAB0C /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5313EC6C28ACE941000EAB0C /* MainInterface.storyboard */; };
-		5313EC7228ACE941000EAB0C /* BudgetIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		5313EC7528ACE941000EAB0C /* BudgetIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5313EC5B28ACE941000EAB0C /* BudgetIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5313EC7228ACE941000EAB0C /* SnapTrackIntentUI.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5313EC6628ACE941000EAB0C /* SnapTrackIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5313EC7528ACE941000EAB0C /* SnapTrackIntent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5313EC5B28ACE941000EAB0C /* SnapTrackIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5321E1DC291FE02C00D5A931 /* CategoryCreationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */; };
 		5321E1DE291FE2CE00D5A931 /* CategoryCreationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */; };
 		5321E1DF291FE2D000D5A931 /* CategoryCreationErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */; };
@@ -102,7 +102,7 @@
 		53B1D18E288ED7E500E28062 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B1D18D288ED7E500E28062 /* SwiftUI.framework */; };
 		53B1D191288ED7E500E28062 /* ExpenditureWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1D190288ED7E500E28062 /* ExpenditureWidget.swift */; };
 		53B1D193288ED87000E28062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53B1D192288ED87000E28062 /* Assets.xcassets */; };
-		53B1D197288ED87000E28062 /* ExpenditureWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		53B1D197288ED87000E28062 /* SnapTrackWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		53B1D1A2288EDABC00E28062 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D2AC287C6AD200F76ADF /* DataController.swift */; };
 		53B1D1A5289383B100E28062 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1D1A4289383B100E28062 /* FontExtension.swift */; };
 		53B1D1A8289A60D500E28062 /* CrookedText in Frameworks */ = {isa = PBXBuildFile; productRef = 53B1D1A7289A60D500E28062 /* CrookedText */; };
@@ -148,6 +148,7 @@
 		53E832E72B0B067B000CBBA0 /* TransactionCategoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E832E62B0B067B000CBBA0 /* TransactionCategoryPicker.swift */; };
 		53EB930E28A65A570026BE28 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5327D2B5287C6AFB00F76ADF /* Color.swift */; };
 		53EB930F28A65B250026BE28 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B1D1A4289383B100E28062 /* FontExtension.swift */; };
+		54645ECCE130D3A5898110FE /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 71D0FD85D1D839B320788641 /* Supabase */; };
 		AE5B3D792AEE99E000AB364E /* NumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B3D782AEE99E000AB364E /* NumberPad.swift */; };
 		AEADEF6F2AE94DA3006EB614 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF6E2AE94DA3006EB614 /* Toast.swift */; };
 		AEADEF712AE94DA8006EB614 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEADEF702AE94DA8006EB614 /* BackButton.swift */; };
@@ -191,9 +192,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				53B1D197288ED87000E28062 /* ExpenditureWidgetExtension.appex in Embed Foundation Extensions */,
-				5313EC7528ACE941000EAB0C /* BudgetIntent.appex in Embed Foundation Extensions */,
-				5313EC7228ACE941000EAB0C /* BudgetIntentUI.appex in Embed Foundation Extensions */,
+				53B1D197288ED87000E28062 /* SnapTrackWidget.appex in Embed Foundation Extensions */,
+				5313EC7528ACE941000EAB0C /* SnapTrackIntent.appex in Embed Foundation Extensions */,
+				5313EC7228ACE941000EAB0C /* SnapTrackIntentUI.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,18 +215,18 @@
 		530C89D52A793B6C00B5028D /* ShortcutsEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsEntities.swift; sourceTree = "<group>"; };
 		530C9DFC28ACE14A0038535F /* BudgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetWidget.swift; sourceTree = "<group>"; };
 		5311A22E29F04EF300A5BE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; name = Base; path = Base.lproj/WidgetConfiguration.intentdefinition; sourceTree = "<group>"; };
-		5313EC5B28ACE941000EAB0C /* BudgetIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BudgetIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5313EC5B28ACE941000EAB0C /* SnapTrackIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = SnapTrackIntent.appex; path = BudgetIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5313EC5C28ACE941000EAB0C /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
 		5313EC5F28ACE941000EAB0C /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		5313EC6128ACE941000EAB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BudgetIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5313EC6628ACE941000EAB0C /* SnapTrackIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = SnapTrackIntentUI.appex; path = BudgetIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5313EC6728ACE941000EAB0C /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
 		5313EC6A28ACE941000EAB0C /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
 		5313EC6D28ACE941000EAB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		5313EC6F28ACE941000EAB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5321E1DB291FE02B00D5A931 /* CategoryCreationErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCreationErrors.swift; sourceTree = "<group>"; };
 		5324985428A64DA7007B34D1 /* RecentTransactionsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsWidget.swift; sourceTree = "<group>"; };
-		5327D283287C697400F76ADF /* dime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5327D283287C697400F76ADF /* SnapTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SnapTrack.app; path = dime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5327D286287C697400F76ADF /* dimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dimeApp.swift; sourceTree = "<group>"; };
 		5327D28D287C697C00F76ADF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5327D294287C698900F76ADF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -286,7 +287,7 @@
 		53A839B928D33840006F227C /* UnlockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnlockManager.swift; path = dime/Views/UnlockManager.swift; sourceTree = SOURCE_ROOT; };
 		53A839BC28D35738006F227C /* SKProduct-LocalizedPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKProduct-LocalizedPrice.swift"; sourceTree = "<group>"; };
 		53A839C028D732E1006F227C /* TabBarHiding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHiding.swift; sourceTree = "<group>"; };
-		53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ExpenditureWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; name = SnapTrackWidget.appex; path = ExpenditureWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		53B1D18B288ED7E400E28062 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		53B1D18D288ED7E500E28062 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		53B1D190288ED7E500E28062 /* ExpenditureWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenditureWidget.swift; sourceTree = "<group>"; };
@@ -366,6 +367,7 @@
 				533A38F42AA49E5900F66957 /* Alamofire in Frameworks */,
 				536715ED28E1E9A3008461F2 /* StoreKit.framework in Frameworks */,
 				53B1D1A8289A60D500E28062 /* CrookedText in Frameworks */,
+				54645ECCE130D3A5898110FE /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,10 +432,10 @@
 		5327D284287C697400F76ADF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5327D283287C697400F76ADF /* dime.app */,
-				53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */,
-				5313EC5B28ACE941000EAB0C /* BudgetIntent.appex */,
-				5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */,
+				5327D283287C697400F76ADF /* SnapTrack.app */,
+				53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */,
+				5313EC5B28ACE941000EAB0C /* SnapTrackIntent.appex */,
+				5313EC6628ACE941000EAB0C /* SnapTrackIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -671,9 +673,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5313EC5A28ACE941000EAB0C /* BudgetIntent */ = {
+		5313EC5A28ACE941000EAB0C /* SnapTrackIntent */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5313EC7B28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "BudgetIntent" */;
+			buildConfigurationList = 5313EC7B28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "SnapTrackIntent" */;
 			buildPhases = (
 				5313EC5728ACE941000EAB0C /* Sources */,
 				5313EC5828ACE941000EAB0C /* Frameworks */,
@@ -683,14 +685,14 @@
 			);
 			dependencies = (
 			);
-			name = BudgetIntent;
-			productName = BudgetIntent;
-			productReference = 5313EC5B28ACE941000EAB0C /* BudgetIntent.appex */;
+			name = SnapTrackIntent;
+			productName = SnapTrackIntent;
+			productReference = 5313EC5B28ACE941000EAB0C /* SnapTrackIntent.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		5313EC6528ACE941000EAB0C /* BudgetIntentUI */ = {
+		5313EC6528ACE941000EAB0C /* SnapTrackIntentUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5313EC7A28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "BudgetIntentUI" */;
+			buildConfigurationList = 5313EC7A28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "SnapTrackIntentUI" */;
 			buildPhases = (
 				5313EC6228ACE941000EAB0C /* Sources */,
 				5313EC6328ACE941000EAB0C /* Frameworks */,
@@ -700,14 +702,14 @@
 			);
 			dependencies = (
 			);
-			name = BudgetIntentUI;
-			productName = BudgetIntentUI;
-			productReference = 5313EC6628ACE941000EAB0C /* BudgetIntentUI.appex */;
+			name = SnapTrackIntentUI;
+			productName = SnapTrackIntentUI;
+			productReference = 5313EC6628ACE941000EAB0C /* SnapTrackIntentUI.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		5327D282287C697400F76ADF /* dime */ = {
+		5327D282287C697400F76ADF /* SnapTrack */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "dime" */;
+			buildConfigurationList = 5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "SnapTrack" */;
 			buildPhases = (
 				5327D27F287C697400F76ADF /* Sources */,
 				5327D280287C697400F76ADF /* Frameworks */,
@@ -723,7 +725,7 @@
 				5313EC7128ACE941000EAB0C /* PBXTargetDependency */,
 				5313EC7428ACE941000EAB0C /* PBXTargetDependency */,
 			);
-			name = dime;
+			name = SnapTrack;
 			packageProductDependencies = (
 				5327D2E5287C6CC300F76ADF /* Popovers */,
 				53B1D1A7289A60D500E28062 /* CrookedText */,
@@ -733,14 +735,15 @@
 				533A38F32AA49E5900F66957 /* Alamofire */,
 				D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */,
 				D6A4DE232D61744400F7F751 /* SwiftUIIntrospect-Static */,
+				71D0FD85D1D839B320788641 /* Supabase */,
 			);
-			productName = dime;
-			productReference = 5327D283287C697400F76ADF /* dime.app */;
+			productName = SnapTrack;
+			productReference = 5327D283287C697400F76ADF /* SnapTrack.app */;
 			productType = "com.apple.product-type.application";
 		};
-		53B1D189288ED7E400E28062 /* ExpenditureWidgetExtension */ = {
+		53B1D189288ED7E400E28062 /* SnapTrackWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 53B1D198288ED87000E28062 /* Build configuration list for PBXNativeTarget "ExpenditureWidgetExtension" */;
+			buildConfigurationList = 53B1D198288ED87000E28062 /* Build configuration list for PBXNativeTarget "SnapTrackWidget" */;
 			buildPhases = (
 				53B1D186288ED7E400E28062 /* Sources */,
 				53B1D187288ED7E400E28062 /* Frameworks */,
@@ -750,9 +753,9 @@
 			);
 			dependencies = (
 			);
-			name = ExpenditureWidgetExtension;
-			productName = ExpenditureWidgetExtension;
-			productReference = 53B1D18A288ED7E400E28062 /* ExpenditureWidgetExtension.appex */;
+			name = SnapTrackWidget;
+			productName = SnapTrackWidget;
+			productReference = 53B1D18A288ED7E400E28062 /* SnapTrackWidget.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -796,15 +799,16 @@
 				538D10732A5AB7E7008F1AFB /* XCRemoteSwiftPackageReference "IsScrolling" */,
 				533A38F22AA49E0100F66957 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				D6A4DE1E2D61744400F7F751 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */,
+				D50229C80A7C939B1BD173E6 /* XCRemoteSwiftPackageReference "supabase-swift" */,
 			);
 			productRefGroup = 5327D284287C697400F76ADF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5327D282287C697400F76ADF /* dime */,
-				53B1D189288ED7E400E28062 /* ExpenditureWidgetExtension */,
-				5313EC5A28ACE941000EAB0C /* BudgetIntent */,
-				5313EC6528ACE941000EAB0C /* BudgetIntentUI */,
+				5327D282287C697400F76ADF /* SnapTrack */,
+				53B1D189288ED7E400E28062 /* SnapTrackWidget */,
+				5313EC5A28ACE941000EAB0C /* SnapTrackIntent */,
+				5313EC6528ACE941000EAB0C /* SnapTrackIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -1029,17 +1033,17 @@
 /* Begin PBXTargetDependency section */
 		5313EC7128ACE941000EAB0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5313EC6528ACE941000EAB0C /* BudgetIntentUI */;
+			target = 5313EC6528ACE941000EAB0C /* SnapTrackIntentUI */;
 			targetProxy = 5313EC7028ACE941000EAB0C /* PBXContainerItemProxy */;
 		};
 		5313EC7428ACE941000EAB0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5313EC5A28ACE941000EAB0C /* BudgetIntent */;
+			target = 5313EC5A28ACE941000EAB0C /* SnapTrackIntent */;
 			targetProxy = 5313EC7328ACE941000EAB0C /* PBXContainerItemProxy */;
 		};
 		53B1D196288ED87000E28062 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 53B1D189288ED7E400E28062 /* ExpenditureWidgetExtension */;
+			target = 53B1D189288ED7E400E28062 /* SnapTrackWidget */;
 			targetProxy = 53B1D195288ED87000E28062 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1090,16 +1094,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BudgetIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BudgetIntent;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Intent";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.BudgetIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.BudgetIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1122,16 +1126,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BudgetIntent/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BudgetIntent;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Intent";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.BudgetIntent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.BudgetIntent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1153,16 +1157,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BudgetIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BudgetIntentUI;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Intent UI";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.BudgetIntentUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.BudgetIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1180,16 +1184,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BudgetIntentUI/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = BudgetIntentUI;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Intent UI";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.BudgetIntentUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.BudgetIntentUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1330,7 +1334,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dime/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Dime;
+				INFOPLIST_KEY_CFBundleDisplayName = SnapTrack;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save an image of a transaction for sharing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1338,12 +1342,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1371,7 +1376,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dime/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Dime;
+				INFOPLIST_KEY_CFBundleDisplayName = SnapTrack;
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save an image of a transaction for sharing.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -1379,12 +1384,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1409,16 +1415,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExpenditureWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ExpenditureWidgetExtension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.ExpenditureWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.ExpenditureWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1440,16 +1446,16 @@
 				DEVELOPMENT_TEAM = 5UNNTHMF44;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExpenditureWidget/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = ExpenditureWidgetExtension;
+				INFOPLIST_KEY_CFBundleDisplayName = "SnapTrack Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 2.1.4;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rafaelsoh.dime.ExpenditureWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mateussaar2000.snaptrack.ExpenditureWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1461,7 +1467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5313EC7A28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "BudgetIntentUI" */ = {
+		5313EC7A28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "SnapTrackIntentUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5313EC7828ACE941000EAB0C /* Debug */,
@@ -1470,7 +1476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5313EC7B28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "BudgetIntent" */ = {
+		5313EC7B28ACE941000EAB0C /* Build configuration list for PBXNativeTarget "SnapTrackIntent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5313EC7628ACE941000EAB0C /* Debug */,
@@ -1488,7 +1494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "dime" */ = {
+		5327D291287C697C00F76ADF /* Build configuration list for PBXNativeTarget "SnapTrack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5327D292287C697C00F76ADF /* Debug */,
@@ -1497,7 +1503,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		53B1D198288ED87000E28062 /* Build configuration list for PBXNativeTarget "ExpenditureWidgetExtension" */ = {
+		53B1D198288ED87000E28062 /* Build configuration list for PBXNativeTarget "SnapTrackWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				53B1D199288ED87000E28062 /* Debug */,
@@ -1557,6 +1563,14 @@
 				minimumVersion = 1.2.1;
 			};
 		};
+		D50229C80A7C939B1BD173E6 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 		D6A4DE1E2D61744400F7F751 /* XCRemoteSwiftPackageReference "SwiftUI-Introspect" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/siteline/SwiftUI-Introspect";
@@ -1597,6 +1611,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 53DCFA9F2A498FBF0063FCDE /* XCRemoteSwiftPackageReference "CloudKitSyncMonitor" */;
 			productName = CloudKitSyncMonitor;
+		};
+		71D0FD85D1D839B320788641 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D50229C80A7C939B1BD173E6 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
 		};
 		D6A4DE1F2D61744400F7F751 /* SwiftUIIntrospect */ = {
 			isa = XCSwiftPackageProductDependency;

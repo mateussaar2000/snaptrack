@@ -8,13 +8,23 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.rafaelsoh.dime</string>
+			<string>com.mateussaar2000.snaptrack</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>dimeapp</string>
+				<string>snaptrack</string>
 			</array>
 		</dict>
 	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>SnapTrack uses the camera to take photos of your meals for AI analysis.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>SnapTrack uses the microphone to record optional voice hints with meal photos.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>SnapTrack uses the photo library so you can choose existing meal photos.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>SnapTrack uses speech recognition to turn voice hints into text for AI analysis.</string>
 	<key>NSUserActivityTypes</key>
 	<array>
 		<string>BudgetWidgetConfigurationIntent</string>
@@ -28,22 +38,18 @@
 			<key>UIApplicationShortcutItemIconSymbolName</key>
 			<string>magnifyingglass</string>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>Search Entries</string>
+			<string>Search Meals</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>dimeapp://search</string>
+			<string>snaptrack://search</string>
 		</dict>
 		<dict>
 			<key>UIApplicationShortcutItemIconSymbolName</key>
 			<string>plus.app</string>
 			<key>UIApplicationShortcutItemTitle</key>
-			<string>Add Expense</string>
+			<string>Log Meal</string>
 			<key>UIApplicationShortcutItemType</key>
-			<string>dimeapp://newExpense</string>
+			<string>snaptrack://newMeal</string>
 		</dict>
-	</array>
-	<key>UIBackgroundModes</key>
-	<array>
-		<string>remote-notification</string>
 	</array>
 </dict>
 </plist>
